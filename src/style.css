@@ -1,0 +1,41 @@
+.header {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.users {
+    display: flex;
+    flex-direction: row;   
+}
+
+.host {
+    border: 1.5px solid;
+    border-radius: 10px;
+}
+.head_middle{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation{
+    border: 3px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px 400px;
+}
+.loc {
+    display: flex;
+    flex-direction: column;
+}
+.loc_info, .checkin_info, .checkout_info, .num_people_info{
+    color: gray;
+}
+
+.img3{
+    
+    border-radius:25%;
+    background-color: #FF385C;
+}
