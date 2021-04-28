@@ -1,40 +1,215 @@
+body{
+    font-size: 10px;
+    margin: 0%;
+}
+.main{
+    background-image: url('../images/4e9fc041-1c7e-4f2d-b2bd-52c9cdc6a512.jpg');
+    /* background-repeat: no-repeat;
+    background-size:contain; */
+    background-size: 100% 100%;;
+    background-attachment: fixed;
+    
+}
 .header {
-    margin: 20px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    padding: 1rem 5rem;
+    font-size: 15px;
 }
 
 .users {
     display: flex;
     flex-direction: row;   
 }
-
+.host:hover{
+    border: 1.5px;
+    border-radius: 1rem;
+    background-color: white;
+}
 .host {
-    border: 1.5px solid;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0.5rem;
 }
 .head_middle{
     display: flex;
     justify-content: space-between;
+    width: 15%;
+    padding-top: 0.6rem;
 }
+.navigation-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.user_info{
+    border: 0.1rem;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 0.5rem;
+}
+.after_img2{
+    padding: 0.2rem 0.8rem 0.2rem 0.4rem;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.img2{
+    padding: 0.4rem 0.5rem 0rem 1rem;
+}
+
 .navigation{
-    border: 3px solid;
-    border-radius: 10px;
+    border: 0.1rem;
+    border-radius: 1rem;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin: 10px 400px;
+    width: 40rem;
+    height: 3rem;
+    background-color: white;
 }
 .loc {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+}
+.loc:hover, .check_in_out:hover, .people:hover {
+    background-color: rgb(247, 241, 241);
+    border-radius:1rem;
+    padding: 1rem;
+}
+.check_in_out, .people{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
 }
 .loc_info, .checkin_info, .checkout_info, .num_people_info{
-    color: gray;
+    color: gray;   
 }
 
 .img3{
-    border-radius:25%;
+    border-radius:50%;
     background-color: #FF385C;
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+    justify-content: center;
+    margin: 0.5rem;
 }
+.main_bottom{
+    margin-left: 6rem;
+    margin-top: 10rem;
+    padding-bottom: 10rem;
+}
+.main_bottom_letter_1{
+    /* align-items: center;
+    justify-content: flex-start; */
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 0.02rem;
+    line-height: 1rem;
+}
+.main_bottom_letter_2{
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+    line-height: 0.6rem;
+}
+.main_bottom_letter_3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-weight: bold;  
+    line-height: 1.5rem;
+
+    border: 0.1rem;
+    border-radius: 0.5rem;
+    margin-right: 75rem;
+    padding-top: 0.55%;
+    padding-bottom: 0.55%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.loc_look_around, .wherever{
+    padding: 1rem 2rem; 
+}
+
+.loc_look_around_text, .wherever_text{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.grid_container{
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+    grid-column: 3;
+}
+
+.where_grid_container{
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+    grid-column: 4;
+}
+
+.grid_item1, .grid_item2, .grid_item3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.where_grid_item1, .where_grid_item2, .where_grid_item3, .where_grid_item4{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.grid_item1_image, .grid_item2_image, .grid_item3_image{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.where_grid_item1_image, .where_grid_item2_image, .where_grid_item3_image, .where_grid_item4_image{
+    border: 0.8rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.grid_item1_text, .grid_item2_text, .grid_item3_text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2rem 2rem 2rem 1rem;
+    font-size: 1.2rem;
+}
+
+.grid_item1_text1, .grid_item2_text1, .grid_item3_text1{
+    font-weight: bold;
+}
+
+.where_grid_item1_text, .where_grid_item2_text, .where_grid_item3_text, .where_grid_item4_text{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
