@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.wrapper > div{
+    width: 100%;
+    height: 100%;
+}
+
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+.green{
+    background: green;
+}
+
+.modal{
+    display: none;
+}
